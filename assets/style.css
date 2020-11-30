@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-image: url('graphic\theme_slider2_bg-1.jpg');
+    background-size: cover;
+
+}
