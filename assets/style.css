@@ -16,6 +16,10 @@ nav {
     height: 30px;
 }
 
+.navlogo {
+    width: 50%;
+}
+
 nav img {
     width: 100px;
     height: 100%;
@@ -41,14 +45,11 @@ nav button:hover {
     flex-direction: row;
 }
 
-.navsection span {
+.menuelement span {
+    margin-left: 10px;
     font-weight: bold;
     font-size: 15px;
     color: #FFF;
-}
-
-.menuelement {
-    
 }
 
 /****************************************************/
