@@ -16,16 +16,12 @@ nav {
     height: 30px;
 }
 
-.navlogo {
-    width: 50%;
-}
-
 nav img {
     width: 100px;
     height: 100%;
 }
 
-nav button, .btn {
+nav button, nav .btn {
     width: 15%;
     border-radius: 30px;
     padding: 5px;
@@ -38,6 +34,10 @@ nav button, .btn {
 nav button:hover {
     background-color: #FFF;
     color: #e56768;
+}
+
+.navlogo {
+    width: 50%;
 }
 
 .navsection {
@@ -61,18 +61,56 @@ nav button:hover {
     color: #FFF;
 }
 
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.jumbotron h2 {
+    font-size: 12px;
+}
+
 .jumbo_btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px 25px;
 }
 
-.jumbo_btn button {
+.jumbo_btn .btn {
     border-radius: 30px;
-    padding: 5px;
-    font-size: 20px;
+    margin-right: 10px;
+    padding: 15px 10px;
+    font-size: 10px;
     font-weight: bold;
     color: #FFF;
     background-color: #e9d758;
+}
+
+/***************************************************/
+
+.courses {
+    display: flex;
+    background-image: url("graphic/home-background-png");
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red; */
+}
+
+.courses_left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.courses_left img {
+    width: 40px;
+    height: 40px;
+}
+
+.courses_right {
+    width: 50%;
+}
+
+.courses_right img {
+    width: 100%;
 }
