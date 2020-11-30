@@ -5,7 +5,36 @@
 }
 
 header {
-    background-image: url('graphic\theme_slider2_bg-1.jpg');
+    background-color: #e56768;
+    background: url("theme_slider2_bg-1.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    height: 100px;
+}
+
+nav img {
+    width: 200px;
+    height: 100%;
+}
+
+nav button {
+    width: 10%;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #e9d758;
+}
+
+.navlogo {
 
 }
