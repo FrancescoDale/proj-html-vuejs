@@ -5,12 +5,7 @@
 }
 
 header {
-    background-color: #e56768;
-    background: url("theme_slider2_bg-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+    background: #e56768;
 }
 
 nav {
@@ -18,23 +13,65 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px 50px;
-    height: 100px;
+    height: 30px;
 }
 
 nav img {
-    width: 200px;
+    width: 100px;
     height: 100%;
 }
 
-nav button {
-    width: 10%;
-    border-radius: 18px;
+nav button, .btn {
+    width: 15%;
+    border-radius: 30px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
     color: #FFF;
     background-color: #e9d758;
 }
 
-.navlogo {
+nav button:hover {
+    background-color: #FFF;
+    color: #e56768;
+}
 
+.navsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.navsection span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFF;
+}
+
+.menuelement {
+    
+}
+
+/****************************************************/
+
+.jumbotron {
+    background-image: url("theme_slider2_bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+.jumbo_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+}
+
+.jumbo_btn button {
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #e9d758;
 }

@@ -19,8 +19,8 @@
                         <img src="graphic\theme_eduprime_logo.png" alt="edu prime logo">
                     </div>
                     <div class="navsection">
-                        <div class="menuelement">
-                            <span>{{  }}</span>
+                        <div class="menuelement" v-for="item in navbarMenu">
+                            <span class="text-capitalize">{{item}}</span>
 
                         </div>
                     </div>
@@ -31,6 +31,11 @@
             <main class="container">
                 <section class="jumbotron">
                     <h1 class="text-center mt-3">Key to your success</h1>
+                    <p class="text-center mt-4">EduPrime is the most versatile WordPress theme for educational purposes,<br> showcasing universities,courses, secondary schools etc</p>
+                    <div class="jumbo_btn">
+                        <button type="button" name="button"></button>
+                        <button type="button" name="button"></button>
+                    </div>
 
                 </section>
 
