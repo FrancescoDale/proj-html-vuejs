@@ -120,8 +120,14 @@ nav button:hover {
 
 .box {
     width: calc(100% / 7);
+    padding: 15px;
+}
+.box>p {
+    font-weight: bold;
+    color: #e56768;
+    font-size: 14px;
 }
 
 .box img {
-    width: 80%;
+    width: 100%;
 }
