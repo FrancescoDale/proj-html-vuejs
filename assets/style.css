@@ -113,6 +113,29 @@ nav button:hover {
     height: 40px;
 }
 
+.courses_left h1, h3 {
+    color: #223441;
+}
+
+.courses_left h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.courses_left h3 {
+    font-size: 14px;    
+}
+
+.courses_left>.btn {
+    width: 35%;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #e9d758;
+}
+
 .courses_right {
     width: 50%;
 }
@@ -134,7 +157,7 @@ nav button:hover {
 
 .box {
     width: calc(100% / 7);
-    padding: 15px 10px;
+    padding: 25px 25px;
     border-style: 1px solid grey;
 }
 
@@ -159,12 +182,31 @@ nav button:hover {
 .faculties_info {
     display: flex;
     align-items: center;
+    color: #223441;
+}
+
+.faculties_info h2 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .faculties_info_left {
     width: 50%;
 }
 
+.faculties_info_left img {
+    float: right;
+}
+
 .faculties_info_right {
     width: 50%;
+}
+
+.faculties_info_right .btn {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #e56768;
+    border-radius: 30px;
+    width: 25%;
+    padding: 15px;
 }
