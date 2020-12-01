@@ -16,25 +16,30 @@ var app = new Vue ({
                 name : '',
             },
             {
-                img : '',
+                img : 'graphic/gavel-v2.png',
                 name : 'law faculty',
             },
             {
-                img : '',
+                img : 'graphic/Coins-tabs-v2.png',
                 name : 'economy',
             },
             {
-                img : '',
+                img : 'graphic/Medicine-tabs-v2.png',
                 name : 'medicine',
             },
             {
-                img : '',
+                img : 'graphic/Computer-tabs-v2.png',
                 name : 'computer science',
             },
             {
-                img : '',
+                img : 'graphic/Palette-tabs-v2.png',
                 name : 'graphic design',
             },
+            {
+                img : '',
+                name : '',
+            },
+
         ],
 
 

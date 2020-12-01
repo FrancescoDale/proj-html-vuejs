@@ -11,9 +11,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    height: calc(5%vh);
     align-items: center;
-    padding: 40px 50px;
-    height: 30px;
+    padding: 20px 70px;
 }
 
 nav img {
@@ -90,10 +90,6 @@ nav button:hover {
 
 .courses {
     display: flex;
-    background-image: url("graphic/home-background-png");
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-color: red; */
 }
 
 .courses_left {
@@ -113,4 +109,19 @@ nav button:hover {
 
 .courses_right img {
     width: 100%;
+}
+
+/*********************************************************/
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: calc(100% / 7);
+}
+
+.box img {
+    width: 80%;
 }

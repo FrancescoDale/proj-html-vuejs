@@ -51,9 +51,9 @@
                 <section class="faculties">
                     <h1 class="text-center mt-4">Faculties available at EduPrime</h1>
                     <h3 class="text-center mt-3">A single university with a load of courses, tailored to satisfy any student's need.</h3>
-                    <div class="carousel">
+                    <div class="carousel mt-4">
                         <div v-for="item in faculties" class="box">
-                            <img src="" alt="">
+                            <img v-bind:src="item.img" alt="">
                             <p class="text-center text-capitalize">{{item.name}}</p>
 
                         </div>
