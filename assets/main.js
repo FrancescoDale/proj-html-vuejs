@@ -10,9 +10,33 @@ var app = new Vue ({
             'contact',
             'purchase',
         ],
-        faculties : {
-            
-        }
+        faculties : [
+            {
+                img : '',
+                name : '',
+            },
+            {
+                img : '',
+                name : 'law faculty',
+            },
+            {
+                img : '',
+                name : 'economy',
+            },
+            {
+                img : '',
+                name : 'medicine',
+            },
+            {
+                img : '',
+                name : 'computer science',
+            },
+            {
+                img : '',
+                name : 'graphic design',
+            },
+        ],
+
 
     },
 });

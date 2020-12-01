@@ -52,7 +52,12 @@
                     <h1 class="text-center mt-4">Faculties available at EduPrime</h1>
                     <h3 class="text-center mt-3">A single university with a load of courses, tailored to satisfy any student's need.</h3>
                     <div class="carousel">
-                        
+                        <div v-for="item in faculties" class="box">
+                            <img src="" alt="">
+                            <p class="text-center text-capitalize">{{item.name}}</p>
+
+                        </div>
+
 
                     </div>
 
