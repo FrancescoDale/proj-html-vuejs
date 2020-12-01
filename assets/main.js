@@ -10,5 +10,9 @@ var app = new Vue ({
             'contact',
             'purchase',
         ],
+        faculties : {
+            
+        }
+
     },
 });
