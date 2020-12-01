@@ -49,12 +49,14 @@ nav button:hover {
     flex-direction: row;
 }
 
-.menuelement span {
+.menuelement a, a:hover {
     margin-left: 10px;
     font-weight: bold;
     font-size: 15px;
     color: #FFF;
+    text-decoration: none;
 }
+
 
 /****************************************************/
 
