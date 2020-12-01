@@ -123,13 +123,13 @@ nav button:hover {
 }
 
 .courses_left h3 {
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 .courses_left>.btn {
     width: 35%;
     border-radius: 30px;
-    padding: 5px;
+    padding: 15px;
     font-size: 10px;
     font-weight: bold;
     color: #FFF;
