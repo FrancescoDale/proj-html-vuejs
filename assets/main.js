@@ -55,12 +55,38 @@ var app = new Vue ({
             },
 
         ],
+        latestCourses : [
+            {
+                name : 'make better decision',
+                icon : 'graphic/Decisions-icon.png',
+                teacher : 'james colins',
+                price : '$ 21,00',
+            },
+            {
+                name : 'how to be a speaker',
+                icon : 'graphic/Speaker-icon.png',
+                teacher : 'james colins',
+                price : 'free',
+            },
+            {
+                name : 'network introduction',
+                icon : 'graphic/Network-icon.png',
+                teacher : 'james colins',
+                price : 'free',
+            },
+            {
+                name : 'brand management',
+                icon : 'graphic/Brand-icon.png',
+                teacher : 'james colins',
+                price : 'free',
+            },
+        ],
 
 
     },
     methods : {
         changeFacultyCard () {
-            
+
         },
     },
 });
