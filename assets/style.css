@@ -16,6 +16,10 @@ nav {
     padding: 20px 70px;
 }
 
+section {
+    padding: 45px 0;
+}
+
 nav img {
     width: 100px;
     height: 100%;
@@ -118,11 +122,17 @@ nav button:hover {
     flex-direction: row;
 }
 
+.carousel h1, h3 {
+    color: #3d404f;
+}
+
 .box {
     width: calc(100% / 7);
-    padding: 15px;
+    padding: 15px 10px;
+    border-style: 1px solid grey;
 }
-.box>p {
+
+.box p {
     font-weight: bold;
     color: #e56768;
     font-size: 14px;
@@ -131,3 +141,11 @@ nav button:hover {
 .box img {
     width: 100%;
 }
+
+.box:hover {
+    background-color: #e56768;
+    text-emphasis-color: #FFF;
+
+}
+
+/**********************************************/
