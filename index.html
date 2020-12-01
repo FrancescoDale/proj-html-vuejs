@@ -71,7 +71,10 @@
                 </section>
                 <section class="latest_courses">
                     <h1 class="text-capitalize">latest courses</h1>
-                    <div v-for="item in latestCourses" class="latest_box">
+                    <div v-for="item in latestCourses" class="latest_box text-center text-capitalize">
+                        <img v-bind:src="item.icon" alt="">
+                        <p><i class="fal fa-user"></i>teacher : {{ item.teacher }} </p>
+                        <p><i class="far fa-money-bill-alt"></i>price : {{ item.price }}</p>
 
                     </div>
 
