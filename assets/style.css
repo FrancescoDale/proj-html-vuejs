@@ -210,3 +210,20 @@ nav button:hover {
     width: 25%;
     padding: 15px;
 }
+
+/***************************************/
+.latest_courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.latest_box {
+    width: calc(100% / 4 - 50px);
+
+}
+
+.latest_courses img {
+    width: 70px;
+    height: 80px;
+}

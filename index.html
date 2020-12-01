@@ -69,15 +69,17 @@
 
                     </div>
                 </section>
-                <section class="latest_courses">
+                <section>
                     <h1 class="text-capitalize">latest courses</h1>
-                    <div v-for="item in latestCourses" class="latest_box text-center text-capitalize">
-                        <img v-bind:src="item.icon" alt="">
-                        <p><i class="fal fa-user"></i>teacher : {{ item.teacher }} </p>
-                        <p><i class="far fa-money-bill-alt"></i>price : {{ item.price }}</p>
+                    <div class="latest_courses mt-4">
+                        <div v-for="item in latestCourses" class="latest_box text-center text-capitalize">
+                            <img v-bind:src="item.icon" alt="">
+                            <p>{{ item.name }}</p>
+                            <p><i class="fas fa-user"></i> teacher : {{ item.teacher }} </p>
+                            <p><i class="far fa-money-bill-alt"></i> price : {{ item.price }}</p>
 
+                        </div>
                     </div>
-
                 </section>
 
             </main>
