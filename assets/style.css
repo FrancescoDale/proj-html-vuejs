@@ -57,6 +57,10 @@ nav button:hover {
     text-decoration: none;
 }
 
+.menuelement a:hover {
+    color: #e9d758;
+}
+
 
 /****************************************************/
 
@@ -151,3 +155,16 @@ nav button:hover {
 }
 
 /**********************************************/
+
+.faculties_info {
+    display: flex;
+    align-items: center;
+}
+
+.faculties_info_left {
+    width: 50%;
+}
+
+.faculties_info_right {
+    width: 50%;
+}
