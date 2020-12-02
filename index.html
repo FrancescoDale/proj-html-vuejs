@@ -78,9 +78,23 @@
                             <p><i class="fas fa-user"></i> teacher : {{ item.teacher }} </p>
                             <p><i class="far fa-money-bill-alt"></i> price : {{ item.price }}</p>
                             <button class="mt-4 btn btn-default text-capitalize text-center" type="button" name="button"><i class="fas fa-eye"></i>view course</button>
-
                         </div>
                     </div>
+                </section>
+                <section class="examination_method">
+                    <div class="examination_method_left">
+                        <img src="graphic/Exam-icon.png" alt="">
+                        <h1 class="mt-2">The most efficient examination method</h1>
+                        <h3 class="mt-4">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</h3>
+                        <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">Discover the Method </button>
+                    </div>
+                    <div class="examination_method_right">
+                        <img v-bind:src="examinationIcon" alt="">
+                    </div>
+
+                </section>
+                <section class="international_students">
+
                 </section>
 
             </main>

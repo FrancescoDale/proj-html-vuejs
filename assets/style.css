@@ -108,7 +108,7 @@ nav button:hover {
     width: 50%;
 }
 
-.courses_left img {
+.courses_left img, .examination_method_left img {
     width: 40px;
     height: 40px;
 }
@@ -226,4 +226,14 @@ nav button:hover {
 .latest_courses img {
     width: 70px;
     height: 80px;
+}
+
+/*********************************************/
+
+.examination_method {
+    display: flex;
+}
+
+.examination_method {
+    display: flex;
 }
