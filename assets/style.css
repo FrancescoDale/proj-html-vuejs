@@ -172,11 +172,11 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     width: calc(100% / 7);
     padding: 25px 25px;
     border-style: 1px solid grey;
+    color: #e56768;
 }
 
 .box p {
     font-weight: bold;
-    color: #e56768;
     font-size: 14px;
 }
 
@@ -184,10 +184,9 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     width: 100%;
 }
 
-.box:hover {
+.box:hover, .box img:hover {
     background-color: #e56768;
-    text-emphasis-color: #FFF;
-
+    color: #FFF;
 }
 
 /**********************************************/
@@ -253,7 +252,8 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 .sub_right input {
     width: 60%;
     border-radius: 35px;
-    height: 40px;    
+    height: 40px;
+    border-style: hidden;
 }
 
 .sub_right i {
@@ -261,5 +261,5 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     padding: 10px;
     border-radius: 100%;
     background-color: #e9d758;
-
+    cursor: pointer;
 }
