@@ -91,7 +91,6 @@
                     <div class="examination_method_right">
                         <img v-bind:src="examinationIcon" alt="">
                     </div>
-
                 </section>
                 <section class="international_students">
                     <div class="international_students_left">
@@ -103,9 +102,15 @@
                         <h3 class="mt-4">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</h3>
                         <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">List of Fees</button>
                     </div>
-
                 </section>
-
+                <section class="subscribe">
+                    <div class="sub_left">
+                        <p class="text-capitalize">subscribe now to our newsletter!</p>
+                    </div>
+                    <div class="sub_right">
+                        <input v-model="userMail" v-on:keyup.enter="subscription" type="text" name="" value="" placeholder="email address"><i @click="subscription" class="fab fa-telegram-plane"></i>
+                    </div>
+                </section>
             </main>
             <footer class="container">
                 <div class="">

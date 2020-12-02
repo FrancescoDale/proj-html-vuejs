@@ -3,6 +3,8 @@ var app = new Vue ({
     data : {
         examinationIcon : 'graphic/Exam-Illustration.png',
         intStudents : 'graphic/Girl-Illustration.png',
+        userMail : '',
+        mailList : [],
         navbarMenu : [
             'home',
             'courses',
@@ -84,11 +86,15 @@ var app = new Vue ({
             },
         ],
 
-
     },
     methods : {
         changeFacultyCard () {
 
+        },
+        subscription () {
+            this.mailList.push(this.userMail);
+            console.log(this.mailList);
+            this.userMail = '';
         },
     },
 });

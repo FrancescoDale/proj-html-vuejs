@@ -148,11 +148,11 @@ nav button:hover {
     background-color: #e9d758;
 }
 
-.faculties_info, .latest_courses, .examination_method, .international_students {
+.faculties_info, .latest_courses, .examination_method, .international_students, .subscribe {
     display: flex;
 }
 
-.courses_left, .courses_right, .faculties_info_left, .faculties_info_right, .examination_method_left, .examination_method_right, .international_students_left, .international_students_right {
+.courses_left, .courses_right, .faculties_info_left, .faculties_info_right, .examination_method_left, .examination_method_right, .international_students_left, .international_students_right, .sub_left, .sub_right {
     width: 50%;
 }
 
@@ -224,7 +224,6 @@ nav button:hover {
 
 .latest_box {
     width: calc(100% / 4 - 50px);
-
 }
 
 .latest_courses img {
@@ -233,3 +232,9 @@ nav button:hover {
 }
 
 /*********************************************/
+
+.subscribe {
+    background-color: #e56768;
+    color: #FFF;  
+    padding: 20px 90px;
+}
