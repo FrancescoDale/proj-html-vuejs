@@ -2,6 +2,7 @@ var app = new Vue ({
     el : '#root',
     data : {
         examinationIcon : 'graphic/Exam-Illustration.png',
+        intStudents : 'graphic/Girl-Illustration.png',
         navbarMenu : [
             'home',
             'courses',
