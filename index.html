@@ -105,10 +105,10 @@
                 </section>
                 <section class="subscribe">
                     <div class="sub_left">
-                        <p class="text-capitalize">subscribe now to our newsletter!</p>
+                        <p class="text-capitalize text-right">subscribe now to our newsletter!</p>
                     </div>
                     <div class="sub_right">
-                        <input v-model="userMail" v-on:keyup.enter="subscription" type="text" name="" value="" placeholder="email address"><i @click="subscription" class="fab fa-telegram-plane"></i>
+                        <input v-model="userMail" v-on:keyup.enter="subscription()" type="text" name="" value="" placeholder="email address"><i @click="subscription()" class="fab fa-telegram-plane"></i>
                     </div>
                 </section>
             </main>
