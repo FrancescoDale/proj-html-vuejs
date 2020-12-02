@@ -20,6 +20,26 @@ section {
     padding: 45px 0;
 }
 
+button {
+    color: #FFF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #223441;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 14px;
+    color: #3d404f;
+}
+
 nav img {
     width: 100px;
     height: 100%;
@@ -31,7 +51,6 @@ nav button, nav .btn {
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
-    color: #FFF;
     background-color: #e9d758;
 }
 
@@ -71,13 +90,8 @@ nav button:hover {
     color: #FFF;
 }
 
-.jumbotron h1 {
-    font-weight: bold;
-    font-size: 38px;
-}
-
 .jumbotron h2 {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .jumbo_btn {
@@ -92,7 +106,6 @@ nav button:hover {
     padding: 15px 10px;
     font-size: 10px;
     font-weight: bold;
-    color: #FFF;
     background-color: #e9d758;
 }
 
@@ -155,10 +168,6 @@ nav button:hover {
     flex-direction: row;
 }
 
-.carousel h1, h3 {
-    color: #3d404f;
-}
-
 .box {
     width: calc(100% / 7);
     padding: 25px 25px;
@@ -200,7 +209,6 @@ nav button:hover {
 }
 
 .faculties_info_right .btn {
-    color: #FFF;
     font-weight: bold;
     background-color: #e56768;
     border-radius: 30px;
