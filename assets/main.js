@@ -95,6 +95,22 @@ var app = new Vue ({
             'graphic/partner-1.png',
             'graphic/partner-7.png',
         ],
+        getEP : [
+            'request a website',
+            'browse themes',
+            'payment options',
+            'support system',
+            'checkout',
+            'purchase theme',
+        ],
+        netWorking : [
+            'purchase theme',
+            'our benefits',
+            'our team',
+            'our services',
+            'other products',
+            'my account',
+        ],
 
     },
     methods : {
