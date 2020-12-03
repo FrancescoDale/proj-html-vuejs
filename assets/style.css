@@ -272,7 +272,7 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     position: absolute;
 }
 
-.sub_right i, footer i {
+.sub_right i, .f_end i {
     position: relative;
     left: 210px;
     color: #FFF;
@@ -302,13 +302,25 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 
 footer {
     padding-top: 45px;
+    color: #FFF;
 }
 
 footer img {
     width: 80%;
 }
 
-footer a {
+footer a, h4 {
     text-decoration: none;
     color: #FFF;
+}
+
+footer h4 {
+    margin: 15px 0;
+}
+
+footer i {
+    margin-left: 8px;
+    border: 1px #e9d758;
+    border-radius: 100%;
+    padding: 6px;       
 }
