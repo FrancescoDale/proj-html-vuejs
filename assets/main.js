@@ -1,6 +1,7 @@
 var app = new Vue ({
     el : '#root',
     data : {
+        logo : 'graphic/theme_eduprime_logo.png',
         examinationIcon : 'graphic/Exam-Illustration.png',
         intStudents : 'graphic/Girl-Illustration.png',
         userMail : '',

@@ -76,7 +76,7 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     text-decoration: none;
 }
 
-.menuelement a:hover {
+.menuelement a:hover, footer a:hover {
     color: #e9d758;
 }
 
@@ -84,10 +84,14 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 /****************************************************/
 
 .jumbotron {
-    background-image: url("theme_slider2_bg-1.jpg");
+    background-image: linear-gradient(
+      rgba(229, 103, 104, 0.6),
+      rgba(229, 103, 104, 0.6) ),
+      url("theme_slider2_bg-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFF;
+    height: 50vh;
 }
 
 .jumbotron h2 {
@@ -148,7 +152,7 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     background-color: #e9d758;
 }
 
-.faculties_info, .latest_courses, .examination_method, .international_students, .subscribe, .partners_list, footer {
+.faculties_info, .latest_courses, .examination_method, .international_students, .subscribe, .partners_list {
     display: flex;
 }
 
@@ -277,7 +281,7 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 /*****************************/
 
 .partners {
-    background-image: url('graphic/Wave-1.png');
+
 }
 .partners_list {
     flex-direction: row;
@@ -292,6 +296,14 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 /****************************/
 
 footer {
-    padding-top: 25px;
-    height: 100px;
+    padding-top: 45px;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
 }
