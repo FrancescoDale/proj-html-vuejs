@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+header, footer {
     background: #e56768;
 }
 
@@ -148,7 +148,7 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     background-color: #e9d758;
 }
 
-.faculties_info, .latest_courses, .examination_method, .international_students, .subscribe {
+.faculties_info, .latest_courses, .examination_method, .international_students, .subscribe, .partners_list, footer {
     display: flex;
 }
 
@@ -229,7 +229,6 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     border: 2px solid grey;
     padding-top: 8px;
     border-style: groove;
-    box-shadow: yellow;
 }
 
 .latest_courses img {
@@ -273,4 +272,26 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     border-radius: 100%;
     background-color: #e9d758;
     cursor: pointer;
+}
+
+/*****************************/
+
+.partners {
+    background-image: url('graphic/Wave-1.png');
+}
+.partners_list {
+    flex-direction: row;
+    width: calc(100% / 8);
+}
+
+.partners_list img {
+    margin: 20px 20px;
+    height: 40px;
+    align-items: center;
+}
+/****************************/
+
+footer {
+    padding-top: 25px;
+    height: 100px;
 }

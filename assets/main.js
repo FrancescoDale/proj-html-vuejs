@@ -85,6 +85,16 @@ var app = new Vue ({
                 price : 'free',
             },
         ],
+        partnersLogos : [
+            'graphic/partner-2.png',
+            'graphic/partner-3.png',
+            'graphic/partner-4.png',
+            'graphic/partner-5.png',
+            'graphic/partner-6.png',
+            'graphic/partner-8.png',
+            'graphic/partner-1.png',
+            'graphic/partner-7.png',
+        ],
 
     },
     methods : {

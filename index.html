@@ -40,7 +40,7 @@
                 <section class="courses">
                     <div class="courses_left">
                         <img src="graphic/Books-icon.png" alt="">
-                        <h2 class="mt-2">Thousand of courses for any type of student</h2>
+                        <h2 class="mt-4">Thousand of courses for any type of student</h2>
                         <h3 class="mt-4">At EduPrime, it doesn’t matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides.</h3>
                         <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">browse through courses </button>
                     </div>
@@ -76,8 +76,8 @@
                             <img v-bind:src="item.icon" alt="">
                             <p class="mt-2">{{ item.name }}</p>
                             <p
-                            class="mt-3"><i class="fas fa-user"></i> teacher : {{ item.teacher }} </p>
-                            <p><i class="far fa-money-bill-alt"></i> price : {{ item.price }}</p>
+                            class="mt-3"><i class="fas fa-user"></i> teacher : <span> {{ item.teacher }}</span></p>
+                            <p><i class="far fa-money-bill-alt"></i> price : <span>{{ item.price }}</span></p>
                             <button class="mt-4 btn btn-default text-capitalize text-center" type="button" name="button"><i class="fas fa-eye">  </i> view course</button>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                 <section class="examination_method">
                     <div class="examination_method_left">
                         <img src="graphic/Exam-icon.png" alt="">
-                        <h2 class="mt-2">The most efficient examination method</h2>
+                        <h2 class="mt-4">The most efficient examination method</h2>
                         <h3 class="mt-4">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</h3>
                         <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">Discover the Method </button>
                     </div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="international_students_right">
                         <img src="graphic/Exam-icon-1.png" alt="">
-                        <h2 class="mt-2">Variable fees for international students</h2>
+                        <h2 class="mt-4">Variable fees for international students</h2>
                         <h3 class="mt-4">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</h3>
                         <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">List of Fees</button>
                     </div>
@@ -112,27 +112,25 @@
                         <input v-model="userMail" v-on:keyup.enter="subscription()" type="text" name="" value="" placeholder="email address"><i @click="subscription()" class="fab fa-telegram-plane"></i>
                     </div>
                 </section>
+                <section class="partners text-center">
+                    <h2 class="text-capitalize">partners</h2>
+                    <h3>Leverage agile frameworks to provide a robust synopsis for high level <br> overviews. Iterative approaches to corporate strategy.</h3>
+                    <div class="partners_list mt-4">
+                        <img v-for="item in partnersLogos" v-bind:src="item" alt="">
+                    </div>
+                </section>
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-2">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </footer>
             </main>
-            <footer class="container">
-                <div class="footer1">
-
-                </div>
-                <div class="footer2">
-
-                </div>
-                <div class="footer3">
-
-                </div>
-                <div class="footer4">
-
-                </div>
-                <div class="footer5">
-
-                </div>
-                <div class="footer6">
-
-                </div>
-            </footer>
 
 
         </div>
