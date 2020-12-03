@@ -123,19 +123,20 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
-                                <img src="graphic/theme_eduprime_logo.png" alt="">
-                                <p>EduPrime is the most versatile WordPress theme for educational purposes,<br> showcasing universities,courses, secondary schools etc</p>
+                                <img v-bind:src="logo" alt="">
+                                <h4>EduPrime is the most versatile WordPress theme for educational purposes,<br> showcasing universities,courses, secondary schools etc</h4>
                             </div>
                             <div class="col-2 text-capitalize">
                                 <h4>get edu prime</h4>
-                                <a v-for="item in getEP" href="#">{{ item }}</a>
+                                <a v-for="item in getEP" href="#">{{ item }} <br> </a>
                             </div>
                             <div class="col-2 text-capitalize">
                                 <h4>networking</h4>
-                                <a v-for="item in netWorking" href="#">{{ item }}</a>
+                                <a v-for="item in netWorking" class="mt-1" href="#">{{ item }} <br> </a>
                             </div>
                             <div class="col-4">
-
+                                <input type="text" name="" value="" placeholder="search"><i class="fas fa-search"></i>
+                                <h4 class="mt-4 text-capitalize">search categories</h4>
                             </div>
                         </div>
                     </div>
