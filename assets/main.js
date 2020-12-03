@@ -112,6 +112,15 @@ var app = new Vue ({
             'other products',
             'my account',
         ],
+        buttons : [
+            'economy',
+            'design',
+            'coaching',
+            'business',
+            'medicine',
+            'law',
+            'fitness',
+        ],
 
     },
     methods : {

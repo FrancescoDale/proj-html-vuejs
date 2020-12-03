@@ -286,7 +286,8 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 /*****************************/
 
 .partners {
-
+    background-image: url('graphic/background-wave3.png');
+    /* background-position: bottom; */
 }
 .partners_list {
     flex-direction: row;
@@ -322,5 +323,15 @@ footer i {
     margin-left: 8px;
     border: 1px #e9d758;
     border-radius: 100%;
-    padding: 6px;       
+    padding: 6px;
+}
+
+.button_container button {
+    margin: 0 5px;
+    border-radius: 30px;
+    background-color: #e56768;
+    color: #FFF;
+    padding: 4px;
+    border: 1px solid;
+    border-color: #FFF;
 }
