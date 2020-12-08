@@ -17,7 +17,8 @@ nav {
 }
 
 section {
-    padding: 45px 0;
+    padding-top: 45px;
+    padding-bottom: 30px;
 }
 
 button {
@@ -121,6 +122,9 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 
 .courses {
     display: flex;
+    background-image: url('graphic/home-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .courses_left {
@@ -198,7 +202,6 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 }
 
 /**********************************************/
-
 .faculties_info {
     align-items: center;
     color: #223441;
@@ -288,11 +291,6 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
 }
 
 /*****************************/
-
-.partners {
-    background-image: url('graphic/background-wave3.png');
-    /* background-position: bottom; */
-}
 .partners_list {
     flex-direction: row;
     width: calc(100% / 8);
@@ -302,6 +300,12 @@ nav button:hover, .jumbo_btn .btn:hover, .courses_left .btn:hover {
     margin: 20px 20px;
     height: 40px;
     align-items: center;
+}
+
+.partners_backgrond {
+    background-image: url('graphic/background-wave3.png');
+    background-position: bottom;
+    height: 300px;
 }
 /****************************/
 

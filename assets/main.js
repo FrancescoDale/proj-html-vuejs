@@ -1,6 +1,7 @@
 var app = new Vue ({
     el : '#root',
     data : {
+        facIndex : 0,
         logo : 'graphic/theme_eduprime_logo.png',
         examinationIcon : 'graphic/Exam-Illustration.png',
         intStudents : 'graphic/Girl-Illustration.png',
@@ -125,7 +126,7 @@ var app = new Vue ({
     },
     methods : {
         changeFacultyCard () {
-
+            console.log('');
         },
         subscription () {
             this.mailList.push(this.userMail);

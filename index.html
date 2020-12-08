@@ -13,8 +13,8 @@
     </head>
     <body>
         <div id="root">
-            <header>
-                <nav class="container-fluid">
+            <header class="container-fluid">
+                <nav>
                     <div class="navlogo">
                         <img v-bind:src="logo" alt="edu prime logo">
                     </div>
@@ -28,7 +28,7 @@
                 </nav>
 
             </header>
-            <main class="container">
+            <main class="container-fluid">
                 <section class="jumbotron">
                     <h1 class="text-center mt-3">Key to your success</h1>
                     <p class="text-center mt-4">EduPrime is the most versatile WordPress theme for educational purposes,<br> showcasing universities,courses, secondary schools etc</p>
@@ -38,38 +38,48 @@
                     </div>
                 </section>
                 <section class="courses">
-                    <div class="courses_left">
-                        <img src="graphic/Books-icon.png" alt="">
-                        <h2 class="mt-4">Thousand of courses for any type of student</h2>
-                        <h3 class="mt-4">At EduPrime, it doesn’t matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides.</h3>
-                        <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">browse through courses </button>
-                    </div>
-                    <div class="courses_right">
-                        <img src="graphic/Graduation-Illustration.png" alt="graduation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="courses_left col-6">
+                                <div class="">
+                                    <img src="graphic/Books-icon.png" alt="">
+                                    <h2 class="mt-4">Thousand of courses for any type of student</h2>
+                                    <h3 class="mt-4">At EduPrime, it doesn’t matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides.</h3>
+                                    <button class="mt-4 btn btn-default text-uppercase text-center" type="button" name="button">browse through courses </button>
+
+                                </div>
+                            </div>
+                            <div class="courses_right col-6">
+                                <img src="graphic/Graduation-Illustration.png" alt="graduation">
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section class="faculties">
-                    <h2 class="text-center mt-4">Faculties available at EduPrime</h2>
-                    <h3 class="text-center mt-3">A single university with a load of courses, tailored to satisfy any student's need.</h3>
-                    <div class="carousel mt-4">
-                        <div v-for="item in faculties" class="box">
-                            <img class="text-center" v-bind:src="item.img" alt="">
-                            <p class="text-center text-capitalize mt-3">{{item.name}}</p>
+                    <div class="container">
+                        <h2 class="text-center mt-4">Faculties available at EduPrime</h2>
+                        <h3 class="text-center mt-3">A single university with a load of courses, tailored to satisfy any student's need.</h3>
+                        <div @click="changeFacultyCard()" class="carousel mt-4">
+                            <div v-for="item in faculties" class="box">
+                                <img class="text-center" v-bind:src="item.img" alt="">
+                                <p class="text-center text-capitalize mt-3">{{item.name}}</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="faculties_info mt-4">
-                        <div class="faculties_info_left">
-                            <img src="graphic/Gavel-Illustration-e1556884768193.png" alt="">
-                        </div>
-                        <div class="faculties_info_right">
-                            <h2 class="text-capitalize">law school</h2>
-                            <p class="text-left mt-4">'Learning from world-leading academics and practitioners, you’ll not only receive an outstanding grounding in the theory of law, but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions.'</p>
-                            <button class="mt-4 btn btn-default text-capitalize text-center" type="button" name="button">read more</button>
+                        <div class="faculties_info mt-4">
+                            <div class="faculties_info_left">
+                                <img src="graphic/Gavel-Illustration-e1556884768193.png" alt="">
+                            </div>
+                            <div class="faculties_info_right">
+                                <h2 class="text-capitalize">law school</h2>
+                                <p class="text-left mt-4">'Learning from world-leading academics and practitioners, you’ll not only receive an outstanding grounding in the theory of law, but you will be able to understand how those principles are applied in practice through a range of student-led activities and competitions.'</p>
+                                <button class="mt-4 btn btn-default text-capitalize text-center" type="button" name="button">read more</button>
+                            </div>
+
                         </div>
 
                     </div>
                 </section>
-                <section>
+                <section class="container">
                     <h2 class="text-capitalize">latest courses</h2>
                     <div class="latest_courses mt-4">
                         <div v-for="item in latestCourses" class="latest_box text-center text-capitalize">
@@ -82,7 +92,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="examination_method">
+                <section class="examination_method container">
                     <div class="examination_method_left">
                         <img src="graphic/Exam-icon.png" alt="">
                         <h2 class="mt-4">The most efficient examination method</h2>
@@ -93,7 +103,7 @@
                         <img v-bind:src="examinationIcon" alt="">
                     </div>
                 </section>
-                <section class="international_students">
+                <section class="international_students container">
                     <div class="international_students_left">
                         <img v-bind:src="intStudents" alt="">
                     </div>
@@ -113,10 +123,15 @@
                     </div>
                 </section>
                 <section class="partners text-center">
-                    <h2 class="text-capitalize">partners</h2>
-                    <h3>Leverage agile frameworks to provide a robust synopsis for high level <br> overviews. Iterative approaches to corporate strategy.</h3>
-                    <div class="partners_list mt-4">
-                        <img v-for="item in partnersLogos" v-bind:src="item" alt="">
+                    <div class="container">
+                        <h2 class="text-capitalize">partners</h2>
+                        <h3>Leverage agile frameworks to provide a robust synopsis for high level <br> overviews. Iterative approaches to corporate strategy.</h3>
+                        <div class="partners_list mt-4">
+                            <img v-for="item in partnersLogos" v-bind:src="item" alt="">
+                        </div>
+                    </div>
+                    <div class="partners_background">
+
                     </div>
                 </section>
                 <footer>
